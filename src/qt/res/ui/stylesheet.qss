@@ -332,7 +332,6 @@ QCheckBox:disabled
 }
 
 QSizeGrip {
-    image: url(:/qss_icons/rc/sizegrip.png);
     width: 12px;
     height: 12px;
 }
@@ -423,7 +422,7 @@ QRadioButton::indicator:hover, QCheckBox::indicator:hover
 
 QCheckBox::indicator:checked
 {
-    image:url(:/qss_icons/rc/checkbox.png);
+    image:url(:/icons/transaction_confirmed);
 }
 
 QCheckBox::indicator:disabled, QRadioButton::indicator:disabled
